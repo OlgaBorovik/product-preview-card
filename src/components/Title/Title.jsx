@@ -1,8 +1,9 @@
 import React from 'react'
+import { TitleH1 } from './Title.styled'
 
-const Title = () => {
+const Title = ({title}) => {
   return (
-    <h1>Gabrielle Essence Eau De Parfum</h1>
+    <TitleH1>{title}</TitleH1>
   )
 }
 

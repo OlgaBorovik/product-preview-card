@@ -1,14 +1,18 @@
 import React from 'react'
+import imageDesktop from '../../assets/image-product-desktop.jpg'
 
 
-const Photo = () => {
+
+
+const Photo = ({image}) => {
   return (
     <>
       <picture>
-        <source srcSet='../../assets/images/image-product-desktop.jpg' media="(min-width: 768px)" />
-        <img src='../../assets/images/image-product-mobile.jpg'/>
+        <source srcSet={imageDesktop} media="(min-width: 768px)" />
+        <img src={image} alt="product photo" width='343'/>
       </picture>
-    </>
+      
+      </>
   )
 }
 

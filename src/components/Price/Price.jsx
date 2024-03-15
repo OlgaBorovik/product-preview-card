@@ -1,12 +1,14 @@
 import React from 'react'
+import { PriceBox, OldPriceP, NewPriceP } from './Price.styled'
 
 
-const Price = () => {
+const Price = ({oldPrice, newPrice}) => {
   return (
-      <div>
-          <p>$149.99</p>
-          <p>$169.99</p>
-    </div>
+    < PriceBox>
+          <NewPriceP>${newPrice}</NewPriceP>
+          <OldPriceP>${oldPrice}</OldPriceP>
+          
+    </ PriceBox>
   )
 }
 

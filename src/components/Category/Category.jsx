@@ -1,8 +1,9 @@
 import React from 'react'
+import { CategoryP } from './Category.styled'
 
-const Category = () => {
+const Category = ({category}) => {
   return (
-    <p>PERFUME</p>
+    <CategoryP>{category }</CategoryP>
   )
 }
 
