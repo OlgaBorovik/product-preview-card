@@ -11,7 +11,8 @@ font-family: Montserrat;
 font-weight: 700;
 line-height: 1.21
 letter-spacing: 0px;
-&:hover{
+&:hover,
+&:focus{
     background-color: #1A4032;
 }
 @media screen and (min-width: 768px){
