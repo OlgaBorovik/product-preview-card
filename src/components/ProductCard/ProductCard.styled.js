@@ -5,5 +5,9 @@ width: 100%;
 @media screen and (min-width: 768px){
     display: flex;
     height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 `

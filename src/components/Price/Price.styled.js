@@ -4,6 +4,9 @@ export const PriceBox = styled.div`
 display: flex;
 align-items: center;
 margin-bottom: 20px;
+@media screen and (min-width: 768px){
+   margin-bottom: 30px;
+}
 `
 
 

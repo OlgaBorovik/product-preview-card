@@ -7,4 +7,7 @@ line-height: 1.64;
 letter-spacing: 0px;
 text-align: left;
 margin-bottom: 24px;
+@media screen and (min-width: 768px){
+   margin-bottom: 29px;
+}
 `
